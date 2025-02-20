@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgound colors</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 500px;
+        }
+        #bg-colour{
+background-color: teal;
+        }
+        #bg-image{
+box-shadow: 0 0 10px black;
+width: 500px;
+padding: 10px;
+
+   font-family: Arial, Helvetica, sans-serif;   
+  
+   background: lightgreen url(images/A\ candid\ street\ photography\ style\ image\ depicting\ Lord\ Rama\,\ his\ facial\ features\ partially\ obscured\ by\ thick\ fog\,\ dynamically\ drawing\ his\ glowing\ bow\ amidst\ a\ blurred\ battlefield.\ \ Low\ visibility\ emphasizes\ the\ chao.jpg); 
+   background-size: cover;
+  
+}
+#bg-repeat{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background: lightgreen url(images/nature.jpg) repeat-x scroll ;
+}
+      #bg-position{
+        width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background: lightgreen url(images/nature.jpg) no-repeat scroll bottom right ;
+
+      }
+  #bg-scroll{
+    
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background: lightgreen url(images/rise.jpg) repeat fixed center;
+    background-size: cover;
+  }
+  #gradient{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background: linear-gradient(120deg,red,black,red);
+  }
+       </style>
+</head>
+<body>
+    <h2>background clours</h2>
+    <div id="bg-colour">
+        <h1>This is teal colour</h1>
+    </div>
+    <h2>Background imgage</h2>
+    <div id="bg-image">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem deleniti optio repellendus similique sint rerum nisi quo impedit accusantium fuga culpa labore accusamus, aliquam inventore adipisci totam cum soluta ipsa officia ad at sapiente. Repudiandae consequatur id laborum rem atque placeat possimus saepe numquam? Sit commodi molestiae architecto voluptatum.</p>
+    </div>
+  
+        <h2>background scroll</h2>
+<div id="bg-scroll"></div>
+
+    <h2>Background repeat</h2>
+    <div id="bg-repeat">
+    </div>
+    <h2>background position</h2>
+    <div id="bg-position">
+
+    </div>
+    <h2>gradient colour</h2>
+    <div id="gradient"></div>
+</body>
+</html>
