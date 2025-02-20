@@ -1,0 +1,20 @@
+.container{
+    box-shadow: 0 0 90pX rgb(163, 16, 16);
+     text-align: center;
+     padding: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ width: 800px;
+
+margin: 70px auto;
+color: hsla(60, 86%, 89%, 0.646);
+
+
+
+}
+body{
+ background-image: url("rise.jpg");
+ background-size: cover;
+
+ 
+}
+ 
