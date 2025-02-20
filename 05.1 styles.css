@@ -1,0 +1,84 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 500px;
+
+}
+
+div{
+    width: 800px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+
+}
+#border-all{
+    border: 10px solid darkblue ;
+}
+#border-style{
+    border: dotted darkblue;
+}
+#border-side{
+    border-left:10px solid darkblue ;
+    border-right:10px solid darkblue ;
+
+}
+#border-rad{
+    border:10px solid darkblue ;
+    border-radius: 50px;
+}
+#border-rad2{
+    border: 10px solid darkblue;
+    border-radius:60px 0 60px 0;
+}
+#circle{
+    width: 200px;
+    height: 200px;
+    box-shadow:0 0 10px black;
+     border-radius:  100px;
+}
+#border-circle{
+    width: 200px;
+    height: 200px;
+    box-shadow:0 0 10px black;
+     border-radius:  150px;
+     border:10px solid darkblue ;
+     background-color: aqua;
+}
+#border-squ{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    border:10px solid darkblue ;
+    background-color: aqua;
+}
+#border-frame{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid darkblue;
+    
+    border-left: 10px solid rgb(12, 12, 13);
+    border-right: 10px solid rgb(12, 12, 12);
+    
+}
+#border-ring{
+    width: 200px;
+    height: 200px;
+    box-shadow:0 0 10px black;
+     border-radius:  150px;
+     border:25px solid darkblue ;
+     border-left: 25px solid black;
+     border-right: 25px solid black;
+}
+#youtube{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid darkblue;
+    
+    border-left: 10px solid rgb(12, 12, 13);
+    border-right: 10px solid rgb(12, 12, 12);
+    border-radius: 30px;
+}
